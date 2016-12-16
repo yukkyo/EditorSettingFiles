@@ -1,0 +1,2 @@
+# EditorSettingFiles
+emacsやvim、vimperatorなどの設定ファイル用
