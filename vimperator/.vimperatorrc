@@ -13,6 +13,12 @@ nnoremap p goq
 " vimperatorrcを<C-R>で再読み込みする
 map <C-R> :mapc<CR>:cmapc<CR>:imapc<CR>:source .vimperatorrc<CR>
 
+" プライベートブラウジング
+noremap <S-p> :winopen -private<CR>
+
+" タイトル文字列
+set titlestring=Firefox
+
 "============================
 " colorscheme
 "============================
@@ -30,7 +36,8 @@ hi ErrorMsg color:white; background-color: #ec6aa1;
 
 qmark m https://mail.google.com/
 qmark p http://getpocket.com/a/queue
-
+qmark l https://c15j4clt.mwprem.net/am_bin/amlogin
+nnoremap m gol
 "============================
 " about:config
 "============================
