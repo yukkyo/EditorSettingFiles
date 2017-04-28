@@ -30,6 +30,9 @@ set defsearch=google
 " sでぐぐる
 nnoremap s :tabopen<Space>google<Space>
 
+" eでweblioで検索
+nnoremap e :tabopen<Space>http://ejje.weblio.jp/content/
+
 " bookmark表示
 map b :bmarks<Space>
 
